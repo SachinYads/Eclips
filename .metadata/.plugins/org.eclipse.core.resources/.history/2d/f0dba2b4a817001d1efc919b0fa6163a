@@ -1,0 +1,17 @@
+package Assignment6;
+
+import java.util.Scanner;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+     Scanner sc=new Scanner(System.in);
+     java.lang.String a= sc.nextLine();
+     int start=sc.nextInt();
+     int end =sc.nextInt();
+     for(int i=start;i<end;i++) {
+    	 System.out.println(((CharSequence) a).charAt(i));
+     }
+	}
+
+}

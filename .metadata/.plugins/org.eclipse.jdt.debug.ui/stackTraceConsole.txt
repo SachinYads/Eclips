@@ -1,0 +1,9 @@
+ Map<Order, Double> result = orderRepo.findAll()
+        .stream()
+        .collect(
+          Collectors.toMap(
+              Function.identity(), 
+              order -> order.getProducts().stream()
+                    .mapToDouble(p -> p.getPrice()).sum()
+            ) 
+          );

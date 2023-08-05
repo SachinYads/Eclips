@@ -1,0 +1,5 @@
+package springmvcdatabase.config;
+
+public class JdbcExample {
+
+}

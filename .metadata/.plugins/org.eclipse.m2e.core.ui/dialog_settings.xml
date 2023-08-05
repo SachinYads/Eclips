@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\sachin.ys\eclipse-workspace\springmvc\src\main\java\springmvc\controller\ReController.java"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\springjdbc\src\main\java\com\spring\jdbc\dao\StudentDaoImpl.java"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\springcore\src\main\java\com\springcore\standalone\collections\Test.java"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\ecommapp\src\main\resources\hibernate.cfg.xml"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\springmvcselfstudy\src\main\java\springmvcselfstudy\ContactController.java"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\beanlifecycleSelfStudy\src\main\java\autowiringxml\autowired.xml"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\springmvcxmlconfrigation\src\main\java\springmvcxmlconfrigation\controller\HelloController.java"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\beanlifecycleSelfStudy\src\main\java\beanlifecycleSelfStudy\forxml\Driver.java"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\springscope\src\main\java\springscope\ui\Driver.java"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\beanlifecycle\src\main\java\beanlifecycle\BookCustomBean\Driver.java"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\springexamplewithannotation\src\main\java\springexamplewithannotation\config\AppConfig.java"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\springexamplewithannotation\src\main\resources\springconfig-annotation.xml"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\springexample\src\main\java\springexamples\reading\config\Driver.java"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\studentform"/>
+			<item value="C:\Users\sachin.ys\eclipse-workspace\mondayassignment\src\main\java\mondayassignment\servlet\Pageservlet.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.spring.search"/>
+			<item value="com.spring.mvc"/>
+			<item value="com.spring.jdbc.com.spring.jdbc"/>
+			<item value="com.springcore"/>
+			<item value="com.todo.NoteTaker"/>
+		</list>
+		<list key="groupId">
+			<item value="com.spring.search"/>
+			<item value="com.spring.mvc"/>
+			<item value="com.spring.jdbc"/>
+			<item value="com.springcore"/>
+			<item value="com.todo"/>
+		</list>
+		<list key="artifactId">
+			<item value="springmvcsearch"/>
+			<item value="springmvc"/>
+			<item value="com.spring.jdbc"/>
+			<item value="springcore"/>
+			<item value="NoteTaker"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="JSTLProject"/>
+			<item value="CustomTagApp"/>
+			<item value="ErrorHandlingApp"/>
+			<item value="JSPDirectiveApp"/>
+			<item value="UrlRewrittingApp"/>
+			<item value="CookiesLoginApp"/>
+			<item value="SessionApp"/>
+			<item value="ParameterAtrribute"/>
+			<item value="Request-Dispatch-App"/>
+			<item value="Form_SubmitApp"/>
+			<item value="WebSpringSecurity"/>
+			<item value="springmvcdemoself"/>
+			<item value="hibcurd"/>
+			<item value="customerapp"/>
+			<item value="CustomerDetails"/>
+		</list>
+		<list key="name">
+			<item value="CustomerApp"/>
+			<item value="CustomerDetails"/>
+			<item value="DemoMaven"/>
+		</list>
+		<list key="artifactId">
+			<item value="JSTLProject"/>
+			<item value="CustomTagApp"/>
+			<item value="ErrorHandlingApp"/>
+			<item value="JSPDirectiveApp"/>
+			<item value="UrlRewrittingApp"/>
+			<item value="CookiesLoginApp"/>
+			<item value="SessionApp"/>
+			<item value="ParameterAtrribute"/>
+			<item value="Request-Dispatch-App"/>
+			<item value="Form_SubmitApp"/>
+			<item value="WebSpringSecurity"/>
+			<item value="springmvcdemoself"/>
+			<item value="hibcurd"/>
+			<item value="customerapp"/>
+			<item value="CustomerDetails"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="71"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+</section>

@@ -1,0 +1,22 @@
+package learn;
+
+import java.util.ArrayList;
+
+public class TravrseExample {
+	public static void main(String[] args) {
+		
+		ArrayList<String>names=new ArrayList<>();
+		//For add any element
+		names.add("Duregesh");
+		names.add("Sitara");
+		names.add("Sachin");
+		names.add("Saurav");
+		names.add("Rishu");
+		names.add("Sitara");
+		System.out.println(names);
+   //for each loop
+		for(String str:names) {
+			System.out.println(str+"\t"+str.length());
+		}
+	}
+}

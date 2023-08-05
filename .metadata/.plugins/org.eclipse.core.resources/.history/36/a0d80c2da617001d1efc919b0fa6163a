@@ -1,0 +1,49 @@
+package Assignment6;
+
+public class Studentnew {
+	 private int id; 
+	    private String fname; 
+	    private double cgpa;
+		public Studentnew(String string, int i, double d) {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+		/**
+		 * @return the id
+		 */
+		public int getId() {
+			return id;
+		}
+		/**
+		 * @param id the id to set
+		 */
+		public void setId(int id) {
+			this.id = id;
+		}
+		/**
+		 * @return the fname
+		 */
+		public String getFname() {
+			return fname;
+		}
+		/**
+		 * @param fname the fname to set
+		 */
+		public void setFname(String fname) {
+			this.fname = fname;
+		}
+		/**
+		 * @return the cgpa
+		 */
+		public double getCgpa() {
+			return cgpa;
+		}
+		/**
+		 * @param cgpa the cgpa to set
+		 */
+		public void setCgpa(double cgpa) {
+			this.cgpa = cgpa;
+		} 
+	    
+	 
+}

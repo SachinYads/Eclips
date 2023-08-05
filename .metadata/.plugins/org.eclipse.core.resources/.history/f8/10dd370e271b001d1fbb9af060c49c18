@@ -1,0 +1,10 @@
+package Array;
+
+public class ForEach {
+
+	public static void main(String[] args) {
+		int[]marks= {1,2,3,4,56,7,8,9,4566,7};
+		System.out.println(marks.length);
+	}
+
+}

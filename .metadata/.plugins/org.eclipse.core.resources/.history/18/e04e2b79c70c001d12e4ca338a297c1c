@@ -1,0 +1,14 @@
+package come.prodapthelloworld.main;
+
+public class Student {
+	private String StudentName;
+	private int StudentRollno;
+	
+
+	@Override
+	public String toString() {
+		return "Student [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+
+}

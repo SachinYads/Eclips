@@ -1,0 +1,16 @@
+package come.prodapthelloworld.main;
+
+public class Student {
+	private String StudentName;
+	private int StudentRollno;
+public void displayStudentDetails() {
+		
+		System.out.println(StudentName+StudentRollno);
+	}
+
+	@Override
+	public String toString() {
+		return "Student [StudentName=" + StudentName + ", StudentRollno=" + StudentRollno + "]";
+	}
+
+}

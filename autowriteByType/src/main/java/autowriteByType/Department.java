@@ -1,0 +1,34 @@
+package autowriteByType;
+
+import java.sql.Date;
+import java.time.LocalDate;
+
+public class Department {
+	private String deptName;
+	private Date dateOfJoining;
+	/**
+	 * @return the deptName
+	 */
+	public String getDeptName() {
+		return deptName;
+	}
+	/**
+	 * @param deptName the deptName to set
+	 */
+	public void setDeptName(String deptName) {
+		this.deptName = deptName;
+	}
+	/**
+	 * @return the dateOfJoining
+	 */
+	public Date getDateOfJoining() {
+		return dateOfJoining;
+	}
+	/**
+	 * @param dateOfJoining the dateOfJoining to set
+	 */
+	public void setDateOfJoining(Date dateOfJoining) {
+		this.dateOfJoining = dateOfJoining;
+	}
+   
+}

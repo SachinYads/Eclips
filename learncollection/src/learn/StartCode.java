@@ -1,0 +1,44 @@
+package learn;
+import java.util.*;
+public class StartCode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Type safe collection= In Type safe collection you only add same type of element in collection
+		//UnType safe collection= In Untype safe collection you add any type of elemenet in collection
+		
+		
+     //Type safe collection
+	ArrayList<String>names=new ArrayList<>();
+	//For add any element
+	names.add("Duregesh");
+	names.add("Sitara");
+	names.add("Sachin");
+	names.add("Saurav");
+	names.add("Rishu");
+	names.add("Sitara");
+	System.out.println(names);
+	//For get element
+	System.out.println(names.get(0));
+	System.out.println(names.get(1));
+	//For remove
+	names.remove("Sachin");
+	System.out.println(names);
+	// For check size
+	System.out.println("Size="+names.size());
+	//For check name
+	System.out.println(names.contains("Rishu"));
+	//check empty
+	System.out.println(names.isEmpty());
+	
+
+	
+	//Untype safe 
+	LinkedList name=new LinkedList();
+	name.add("sachin");
+	name.add(101);
+	name.add(true);
+	System.out.println(name);
+	}
+
+}

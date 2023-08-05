@@ -1,0 +1,76 @@
+package springmvcdatabase.config;
+import java.sql.*;       
+public class JdbcExample  
+{  
+// URL for establishing the connection to the database   
+//  TCP port number is 3306  
+// Name of the database is mydb  
+final static String DB_URL = "jdbc:mysql://localhost:3306/prodaptdb";  
+// Mysql driver class  
+final static String DB_DRIVER = "com.mysql.jdbc.Driver";  
+// Password and User name for using the database  
+static String uName = "root";  
+static String psd = "admin";   
+// main method  
+public static void main(String argvs[])  
+{   
+Connection conn = null; // for establishing connection  
+String query = null; // for storing the queries  
+Statement sttment = null; // for executing the query   
+ResultSet resultSet = null; // for storing the response of query  
+try  
+{   
+// Registering the database driver  
+Class.forName(DB_DRIVER);    
+System.out.println("Database connection established");  
+// Creating a connection to the database  
+conn = DriverManager.getConnection(DB_URL, uName, psd);    
+// the query be executed  
+// EmployeeId, EmployeeName, Department are the fields or column names  
+// mytable is the table name available in the mydb database  
+query = "select EmployeeId, EmployeeName, Department from mytable";  
+// for query execution  
+sttment = conn.createStatement();    
+// the query is executed and the result is stored  
+resultSet = sttment.executeQuery(query);    
+while(resultSet.next() )    
+{  
+// receiving the results using the table column name  
+int eId  = resultSet.getInt("EmployeeId");  
+String eName = resultSet.getString("EmployeeName");  
+String department = resultSet.getString("Department");  
+  
+// printing the values  
+System.out.print("Employee ID: " + eId);  
+System.out.print(", Employee Name: " + eName);  
+System.out.println(", Department: " + department);  
+}  
+}  
+catch(SQLException sqlExp)  
+{  
+// For handling the exception raised from JDBC  
+sqlExp.printStackTrace();  
+}  
+catch(Exception e)  
+{  
+// For handing the issues raised from Class.forName  
+e.printStackTrace();  
+}  
+finally  
+{  
+try  
+{  
+// performing the clean-up work  
+// terminating the connection  
+resultSet.close();  
+sttment.close();  
+conn.close();  
+System.out.println("The Connection is closed.");  
+}  
+catch(SQLException sqlExp)  
+{  
+sqlExp.printStackTrace();  
+}  
+}  
+}  
+}  

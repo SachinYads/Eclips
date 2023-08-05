@@ -1,0 +1,7 @@
+mondayassignment\servlet\Pageservlet.class
+mondayassignment\entities\Book.class
+mondayassignment\dao\BookDaoInterface.class
+mondayassignment\dao\BookDao.class
+mondayassignment\service\BookServices.class
+mondayassignment\utility\HibernateUtility.class
+mondayassignmentmain\App.class

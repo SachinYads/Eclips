@@ -1,0 +1,14 @@
+package Assignment6;
+
+public class tourist {
+
+	public static void main(String[] args) {
+      tourist t1=new tourist(10,"sachin","mathura");
+      tourist t2=new tourist();
+      tourist t3=new tourist();
+      tourist t4=new tourist();
+      tourist t5=new tourist();
+      
+	}
+
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="customer" class="springexamples.reading.config.Customer">
+<property name="customerId" value="15"/>
+<property name="customerName" value="Sachin Yadav"/>
+<!--  Below using property i am injecting the dependencies -->
+<property name="address" ref="addrBean1"/>
+</bean>
+
+
+
+<bean id="addrBean1" class="springexamples.reading.config.Address">
+<property name="addressId" value="1"/>
+<property name="city" value="Pune"/>
+<property name="state" value="Maharastra"/>
+<property name="country" value="India"/>
+</bean>
+
+
+
+<bean id="addrBean2" class="springexamples.reading.config.Address">
+<property name="addressId" value="2"/>
+<property name="city" value="Jaunpur"/>
+<property name="state" value="Mubarakpur"/>
+<property name="country" value="India"/>
+</bean>
+
+
+ <bean id="personBean" class="springexamples.reading.config.Person">
+<property name="adharCardNumber" value="390107221322"/>
+<property name="personName" value="Smith"/>
+<property name="residentialAddress" ref="addrBean1"/>
+<property name="permanentAddress" ref="addrBean2"/>
+</bean>
+
+
+
+</beans>

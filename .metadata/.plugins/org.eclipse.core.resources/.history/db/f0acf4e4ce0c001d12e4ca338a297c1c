@@ -1,0 +1,13 @@
+package come.prodapthelloworld.main;
+import java.time.LocalDate;
+public class Employee {
+	private int empId;
+	private String empName;
+	private LocalDate dateOfJoinig;
+	private String designation;
+	private LocalDate dateOfJoining;
+  
+	public void displayEmployeeDetails() {
+		
+	}
+}

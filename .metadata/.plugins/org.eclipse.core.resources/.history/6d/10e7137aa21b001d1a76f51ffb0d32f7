@@ -1,0 +1,30 @@
+package Methods;
+
+public class Method1 {
+	 static int logic(int x,int y) { 
+	    	int z = 0;
+	    	if(x>y) {
+	    		z=x-y;
+	    	}
+	    	else if(x<y) {
+	    		z=x*y;
+	    	}
+	    	return z;
+	    		
+	    	
+	    
+		}
+	public static void main(String[] args) {
+       int a=10;
+       int b=12;
+       int c;
+       c=logic(a,b);
+       System.out.println(c);
+       int a1=12;
+       int b1=120;
+       int c1;
+       c1=logic(a1,b1);
+       System.out.print(c1);
+
+}
+}
